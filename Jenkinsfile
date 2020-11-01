@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Hello World, We are Building now..'
+                echo 'Testing github hook / Jenkins plugin..'
             }
         }
         stage('Test') {
